@@ -1,16 +1,45 @@
-*{
-    padding: 0%;
-    margin: 0%;
-}
-body{
-    height: 100vh;
+body {
+    font-family: Arial, sans-serif;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
 }
-button , .byeButton{
-    font-size: 12px;
-    padding: 12px;
+
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#error-message {
+    color: red;
+    text-align: center;
+}
+
