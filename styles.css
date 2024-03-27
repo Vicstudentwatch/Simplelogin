@@ -32,6 +32,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin: 10px;
 }
 
 button:hover {
@@ -41,6 +42,9 @@ button:hover {
 #error-message {
     color: red;
     text-align: center;
+    display: none;
+}
+#welcomeButton {
     display: none;
 }
 
