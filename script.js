@@ -15,7 +15,6 @@ document.getElementById('login-form').addEventListener('submit', function(event)
            currentUser =  loggedUser[i].name;
            console.log(currentUser);
         //    welcome.innerText = `Welcome ${currentUser}to this App!`;
-            welcome.innerText = `Welcome ${currentUser}to this App!`
            welcomeButton.style = "display:block;"         
            alert(`hi there ${currentUser}`);
         }
