@@ -1,13 +1,20 @@
+    let loggedUser = [{username:'admin' ,password:'12334',name:'admin'},{username:'user1' ,password:'56778',name:'user1'},{username:'user2' ,password:'901223',name:'user2'},{username: 'user3' ,password: '45667',name: 'user3'},{username: 'user4' ,password: '8901223',name: 'user4'}]
+    const username = document.getElementById('username');
+    const password = document.getElementById('password');
+    let currentUser = '';
+    let currentPassword =  '';
+
+
 document.getElementById('login-form').addEventListener('submit', function(event) {
     event.preventDefault();
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
 
-    if (username === 'user' && password === 'web_dev') {
-        alert('Login successful!');
-        // Redirect or perform other actions upon successful login
-    } else {
-        document.getElementById('error-message').style.display = 'block';
+    for(i=0;i<5;i++){
+        if (loggedUser[i].username === username.value && loggedUser[i].password === password.value) {
+           currentUser =  loggedUser[i].name;
+           console.log(currentUser);
+           alert(`hi there ${currentUser}`);
+        }
     }
+    console.log(currentUser);
 });
 
