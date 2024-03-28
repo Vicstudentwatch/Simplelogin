@@ -17,7 +17,7 @@ nav{
 }
 nav ul{
     display: flex;
-    gap: 50px;
+    gap: 40px;
 }
 nav ul li{
     list-style: none;
@@ -34,10 +34,29 @@ nav li:hover{
     padding: 5px;
     padding-bottom: 0;
 }
+.profileLetter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+    border-right: none;
+}
 
 
 /* section */
 section{
-    height: 100vh;
+    height: 80vh;
     background-image: linear-gradient(rgb(255, 122, 122),rgb(130, 130, 247));
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    height: 10vh;
+    background-color: rgb(31, 30, 30);
 }

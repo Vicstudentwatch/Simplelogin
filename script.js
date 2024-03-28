@@ -18,8 +18,8 @@
         if (currentUser === '') {
             errorMessage.style = "display:block;"
         }
-        console.log(currentUser + "1");
-        return currentUser;
+        console.log(currentUser);
+        
     }
 
 document.getElementById('login-form').addEventListener('submit', logIn);
