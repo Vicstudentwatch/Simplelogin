@@ -28,7 +28,7 @@ nav a{
     text-decoration: none;
 }
 nav li:hover{
-    border-bottom: red solid 5px;
+    border-bottom: rgb(253, 122, 123) solid 5px;
     font-size: 23px;
     transition-duration: 0.3s;
     padding: 5px;
