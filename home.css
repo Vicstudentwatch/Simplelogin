@@ -9,7 +9,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 30px;
     font-size: 20px;
     background-color: rgb(255, 152, 129);
     border-bottom: solid 0.5px;
@@ -52,6 +52,34 @@ section{
     height: 80vh;
     background-image: linear-gradient(rgb(255, 122, 122),rgb(130, 130, 247));
 }
+#pop_up{
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    background: white;
+    border: 1px solid black;
+    padding: 40px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    text-align: center;
+    display: none;
+  }
+#pop_up form{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+
+
+/* footer */
 footer{
     display: flex;
     justify-content: center;
